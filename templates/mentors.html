@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}mentors{% endblock %}
+
+
+{% block head %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+{% endblock %}
+
+
+
+{% block body %}
+
+	<div class="home-photo">
+		<img  class="resize" src="static/img/logo.png"/>
+	</div>
+
+<div class="mentors">
+
+	<div class="title">
+		<h1>Mentors</h1>
+	</div>
+
+<script>
+    $(document).ready(function(){
+      $('.mentor-slider').bxSlider({
+        minSlides: 2,
+        maxSlides: 2,
+        slideWidth: 800,
+        slideMargin: 5,
+        shrinkItems: true,
+        adaptiveHeight: true,
+      });
+    });
+  </script>
+
+	<div class="mentor-slider">
+    	<div><img src="static/img/Castle.jpg"></div>
+    	<div>
+    		<h3>John Castle II</h3>
+    		<p>I am the leader of the robotics program at Beverly Hills High School. I have been running the program for the past three years. While not doing robotics I teach environmental science and biology at Beverly Hills High School.</p>
+    	</div>
+    	<div><img src="static/img/Will.jpg"></div>
+    	<div>
+    		<h3>William So</h3>
+    		<p>I am a professional software developer currently working at Opentable. I first started programming when I was 15 years old. I have been mentoring Team 1515 for seven years, and I greatly enjoy being able to teach and help the team with programming and desigining the robot.</p>
+    	</div>
+    	<div><img src="static/img/Kyle.jpg"></div>
+    	<div>
+    		<h3>Kyle Mozdzyn</h3>
+    		<p>I'm a Field Applications Engineer at National instruments who works as a test systems architect for aerospace companies in SoCal. In college, I was a very active member of Formula SAE, which kicked off my passion for student design competitions. I first started working with FIRST robotics about 8 years ago as an official NI controls systems advisor in Austin, TX, supporting some of the large events across the country. In 2018, I got re-involved with FIRST on 1515, and look forward to continuing to work with the team for years to come!</p>
+    	</div>
+    	<div><img src="static/img/Andy.jpg"></div>
+    	<div>
+    		<h3>Andy Austin</h3>
+    		<p>This is my first year supporting the programming team for MorTorq. I operate a small digital design agency that creates interactive human-centered experiences for brands including AT&T, Microsoft, Ford Motor Company, Audi, JC Penney and Amazon. I graduated from Beverly Hills High School in 1990 and am very gratified to see the success and accomplishments of our students through their application of precise engineering, critical decision making and boundless energy.</p>
+    	</div>
+  </div>
+		
+</div>
+{% endblock %}

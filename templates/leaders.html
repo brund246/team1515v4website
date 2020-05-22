@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block title %}leaders{% endblock %}
+
+{% block head %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+{% endblock %}
+
+{% block body %}
+
+				
+<div class="leaders">
+	<div class="home-photo">
+		<img  class="resize" src="static/img/logo.png"/>
+	</div>
+
+
+	<div class="title">
+		<h1>Leaders and Specialists</h1>
+	</div>
+
+<script>
+    $(document).ready(function(){
+      $('.leaders-slider').bxSlider({
+        minSlides: 1,
+        maxSlides: 3,
+        slideWidth: 500,
+        slideMargin: 5,
+        shrinkItems: true,
+      });
+    });
+  </script>
+
+
+	<div class="leaders-slider">
+    	<div class="pic-description"><img src="static/img/leaders/Alex.jpg"> 
+        <h3>Alex McDermott</h3>
+        <h4>Alliance Coordinator<h4>
+        <p>Alex has been a committed member of MorTorq since his freshman year, and has loved being part of the build subdivision where you can catch him designing in CAD and fabricating in the shop. Over the past four years, he’s learned both technical and leadership skills and connected with mentors who helped him discover more about his passion for aerospace engineering. His favorite part of robotics is watching machines go from concept to real life, though spending time with teammates and exhilarating competitions are a close second!</p>
+      </div>
+    	<div class="pic-description"><img src="static/img/leaders/Zura.jpg">
+        <h3>Zura Nebieridze</h3>
+        <h4>Team President</h4>
+        <p>I have been on a team for 3 years. I enjoyed learning and teaching CAD and Electrical, as well as seeing how a simple design idea can turn into a robot in just a few weeks. Robotics helped me decide to pursue electrical engineering and helped me experience working with a team. It is truly inspiring to see what a few passionate teenagers can not do.</p>
+      </div>
+    	<div class="pic-description"><img src="static/img/leaders/Eva.jpg">
+        <h3>Eva Danesh</h3>
+        <h4>Business President</h4>
+        <p>I am a current senior and have been a part of the Business division since freshman year. Ever since I joined, I have loved being a part of all the good our team does that is beyond building our incredible robot, and have learned valuable skills including public speaking and professional writing. Our outreach events work to spread STEM to children of all ages to create the next generation of leaders. At our most recent Women in STEM event, for example, students were able to truly understand the importance of STEM education and the ways they could support each other in finding their true potential and be the generation to break down barriers for females and other underrepresented groups.</p>
+      </div>
+    	<div class="pic-description"><img src="static/img/leaders/Ali.jpg">
+        <h3>Ali Hakam</h3>
+        <h4>Vice President of Engineering</h4>
+        <p>I've been in robotics for 4 great years, where I've learned to engineer through design, wiring, assembly, and machining. Being on MorTorq has prepared me for the challenges I'll encounter in the real world as an engineer, and I'm excited to apply what I've learned in the future!</p>
+      </div>
+    	<div class="pic-description"><img src="static/img/leaders/Silvia.jpg">
+        <h3>Silvia Diaz</h3>
+        <h4>Manufacturing Specialist</h4>
+        <p>As manufacturing specialist my main role is to oversee the fabrication for parts made for the robot. During first semester I lead tool training on all the machines for the new members in the build subdivision.</p>
+      </div>
+    	<div class="pic-description"><img src="static/img/leaders/George.jpg">
+        <h3>George Nebieridze</h3>
+        <h4>Programming Specialist</h4>
+        <p>I am a leader of the programming subdivision. I was in the team since my freshman year, this is my third year of robotics. Robotics taught me how to take responsibility for my actions, Robotics taught me how to work hard by showing me other dedicated and motivated people who try their best. I enjoy the tasks that robotics gives me, I love figuring out how to get a big project done in the shortest and most productive way possible. Robotics taught me many great life lessons.</p>
+      </div>
+    	<div class="pic-description"><img src="static/img/leaders/Nathan.jpg">
+        <h3>Nathan Sparks</h3>
+        <h4>Electrical Specialist</h4>
+        <p>Robotics is epic and I love it. I take great pride in being electrical president and love teaching new students! Some of the people are pretty cool and Robotics is a blast. This class is a truly unique experience.</p>
+      </div>
+    	<div class="pic-description"><img src="static/img/leaders/Ella.jpg">
+        <h3>Ella Cox</h3>
+        <h4>Safety Specialist</h4>
+        <p>My name is Ella Cox and this is my second year on MorTorq. Robotics has made me a better problem solver and leader. I love build season because I get to work with my friends building something we’re passionate about. Safety Captain makes sure our wood shop is safe at all times. Through this position team 1515 is able to work efficiently and to our best abilities. Safety is an important part of robotics and our team from pre season all the way to worlds.</p>
+      </div>
+    	<div class="pic-description"><img src="static/img/leaders/Eli.jpg">
+        <h3>Eli Katz</h3>
+        <h4>CAD Specialist</h4>
+        <p>I’ve been in robotics for 2 years. I’ve loved every second of robotics, as I’m surrounded by like-minded people who all enjoy working together to solve a problem. Robotics has taught me to have an engineering mindset and pursue engineering as a student. Due to robotics, I’ve gone on engineering summer programs to colleges such as the University of Texas at Austin, and had a blast.</p>
+      </div>
+    
+  </div>
+
+</div>
+
+{% endblock %}

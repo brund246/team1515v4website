@@ -1,0 +1,282 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 500;
+	background-color: #000000;
+	position: sticky;
+	width: 100%;
+}
+
+.center-title{
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.center-title a{
+	color: rgb(255, 145, 0);
+	text-decoration: none;
+}
+
+.nav-links{
+	display: flex;
+	list-style: none;
+}
+
+li{
+	padding: 15px 15px
+}
+
+.nav-links a{
+	color: rgb(255, 145, 0);
+	text-decoration: none;
+	font-size: 1.2vmax;
+}
+
+#page-container{
+	position: relative;
+	min-height: 100vh;
+}
+
+#content-wrap{
+	padding-bottom: 2.5rem;
+}
+
+.home-photo img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.resize{
+	max-width:20%;
+    max-height:20%;
+    vertical-align: middle;
+}
+
+
+.bottom-bar{
+
+   display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	height: 8vh;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 500;
+	background-color: #000000;
+	width: 100%;
+	bottom: 0;
+}
+
+.bottom-bar h2{
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 500;
+	color: rgb(255, 145, 0);
+	text-align: left;
+	font-size: 1.2vmax;
+	padding-left: 10px;
+}
+
+.bottom-bar ul{
+
+	list-style: none;
+	float: right;
+	display: flex;
+}
+
+.bottom-bar ul a{
+	color: rgb(255, 145, 0);
+	text-decoration: none;
+}
+
+.slider img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.home-description{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	font-family: 'Chakra Petch', sans-serif;
+	font-weight: 500;
+}
+
+.title{
+	padding-top: 15px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	text-decoration: underline;
+	text-decoration-color: rgb(255, 145, 0);
+	padding-bottom: 15px;
+}
+
+.home{
+	padding-bottom: 30px;
+}
+
+.leaders{
+	padding-bottom: 50px;
+}
+
+.pic-description h3{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size:25px;
+	text-decoration: underline;
+	text-decoration-color: rgb(255, 145, 0);
+}
+
+.pic-description h4{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.pic-description p{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+.awards-list{
+	text-align: center;
+	list-style: none;
+	padding-bottom: 80px;
+}
+
+.awards-list li{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size:25px;
+}
+
+.awards-list img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mentor-list{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row{
+	display: flex;
+}
+
+.column{
+	flex: 33.3%;
+	padding: 5px;
+}
+
+
+.mentor-slider img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+.mentors{
+	padding-bottom: 100px;
+}
+
+.mentor-slider h3{
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-decoration: underline;
+	text-decoration-color: rgb(255, 145, 0);
+}
+
+.mentor-slider p{
+	text-align: center;
+	margin-right: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
+
+.division-list{
+	padding-bottom: 50px;
+}
+
+.division-list h3{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-decoration: underline;
+	text-decoration-color: rgb(255, 145, 0);
+}
+
+.division-list p{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.safety-button{
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.sponsor-list img{
+	width: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sponsor-list h2{
+	text-align: center;
+	font-size: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.contact-list{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
+}
+
+.contact-list li{
+	text-align: center;
+	list-style: none;
+	border: solid;
+	border-color: rgb(255, 145, 0);
+}
+
+
